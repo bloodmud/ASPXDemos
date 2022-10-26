@@ -1,0 +1,46 @@
+﻿
+body {
+}
+
+#mainContainer {
+    width: 1080px;
+    margin: 50px auto;
+    padding: 2em 2em;
+    border: 1px solid #eeeeee;
+}
+
+#mainContent {
+    min-height: 480px;
+}
+
+#footer {
+    margin: 30px auto 10px auto;
+}
+
+.btn {
+    min-width: 15em;
+    padding: 0.375em 0.75em;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    border-radius: 5px 5px;
+}
+
+    .btn:hover {
+        background-color: #f5f5f5;
+        border: 1px dashed #ffd800;
+    }
+
+#action-list li {
+    margin: 25px;
+}
+
+#doUpload {
+    background-color: rgb(0 255 174);
+    border-color: rgb(136 36 202);
+}
+
+    #doUpload:hover {
+        color: white;
+        background-color: rgb(136 36 202);
+        border-color: rgb(0 255 174);
+    }
